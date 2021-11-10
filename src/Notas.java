@@ -245,7 +245,7 @@ public class Notas extends javax.swing.JFrame {
 
         } catch (NumberFormatException e) {
              JOptionPane.showMessageDialog(this,"Error de número o campos vacíos","Error",0);
-            
+            System.out.println(e);
         }
 
 
